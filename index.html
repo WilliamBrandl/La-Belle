@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cálculo de Refis</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <img src="assets/Logo La Belle.png" alt="Logo da Empresa" class="logo">
+
+    <h1>Cálculo de Quantidades de Refil x Essência</h1>
+
+    <label for="numRefis">Número de Refis:</label>
+    <input type="number" id="numRefis" value="30" min="1"> <br><br>
+
+    <label for="volumeRefil">Volume de Cada Refil (ml):</label>
+    <input type="number" id="volumeRefil" value="200" min="1"> <br><br>
+
+    <button onclick="calcularQuantidades()">Calcular</button>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Total Volume (ml)</th>
+                <th>Quantidade de Essência (30%)</th>
+                <th>Quantidade de Augeo (70%)</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td id="totalVolume">-</td>
+                <td id="quantEssencia">-</td>
+                <td id="quantAugeo">-</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
