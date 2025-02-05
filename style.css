@@ -14,9 +14,9 @@ table {
     width: 100%;
     border-collapse: collapse;
     margin-top: 20px;
-    display: block;
     overflow-x: auto;
     white-space: nowrap;
+   
     
 }
 
@@ -24,12 +24,15 @@ table,
 th,
 td {
     border: 1px solid black;
+  
 }
 
 th,
 td {
+
     padding: 10px;
     text-align: center;
+ 
 }
 
 .logo {
@@ -41,17 +44,19 @@ td {
 
 @media (max-width: 500px) {
    
-   h1 {
-    text-align: center;
-   }
-   
-    table {
-        width: 100%;
-        font-size: 12px;
+    h1 {
+     text-align: center;
     }
     
-    input, button {
-        width: 100%;
-        font-size: 14px;
-    }
-}
+     table {
+         
+         width: 100%;
+         font-size: 12px;
+ 
+     }
+     
+     input, button {
+         width: 100%;
+         font-size: 14px;
+     }
+ }
